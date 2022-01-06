@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StudentTable.StdTableClass">
+   <children>
+      <TableView fx:id="table1" layoutX="30.0" layoutY="71.0" onMouseClicked="#clickItem1" prefHeight="278.0" prefWidth="538.0" styleClass="table1" stylesheets="@../../CSS/styles.css">
+        <columns>
+            <TableColumn fx:id="bookId" prefWidth="87.33333969116211" text="Book ID" />
+          <TableColumn fx:id="stdId" prefWidth="87.33333969116211" text="Student ID" />
+            <TableColumn fx:id="stdName" prefWidth="134.00001525878906" text="Student Name" />
+            <TableColumn fx:id="stdSurname" prefWidth="125.33331298828125" text="Student Surname" />
+            <TableColumn fx:id="dueDate" prefWidth="99.99996948242188" text="Due Date" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAdd" layoutX="14.0" layoutY="358.0" mnemonicParsing="false" onAction="#handleStdAdding" text="Add Student" textFill="#870909">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDel" layoutX="136.0" layoutY="358.0" mnemonicParsing="false" onAction="#deleteStudent" text="Delete Student" textFill="#870909">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRef" layoutX="510.0" layoutY="358.0" mnemonicParsing="false" onAction="#updateTable1" text="Refresh" textFill="#870909">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="11.0" layoutY="14.0" prefHeight="45.0" prefWidth="578.0" text="The list of Students who took the book with given ID:" textFill="#870909">
+         <font>
+            <Font name="Californian FB Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
