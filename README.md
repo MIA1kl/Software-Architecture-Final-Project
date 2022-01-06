@@ -1,17 +1,24 @@
-# OOP-Final-Project
+# Software-Arcotecture-Final-Project
 
 ![alt text](https://upload.wikimedia.org/wikipedia/en/0/07/Ala-Too_International_University_Seal.png)
 
 # [AIU's Library]
 
-# The video presentation of java application
-https://youtu.be/6-JPnIEL_cw
+## Author: Natalia Maiatskaia COM19-A
 
-# Click here to see [feedbacks to this application](https://github.com/MIA1kl/Final-Project/blob/master/feedback.md)
+### Description:
 
-## Authors: Natalia Klimareva, Fatima Bekmamatova COM19-A
+Each university has its own library. Unfortunately, there are not enough books for all students.In order for the librarian to see exactly how many books are left, I have created an app where employee can add books, edit its number, link the book to the student and see the date when the student must turn in the book.
 
-Each university has its own library. Unfortunately, there are not enough books for all students.In order for the librarian to see exactly how many books are left, we have created an app where employee can add books, edit its number, link the book to the student and see the date when the student must turn in the book.
+### Relevance:
+
+It is a very useful application for librarians and students. Students can see left amount of books they needed. Librarians can see the due dates for returning books and control it.
+
+### Problem Solution:
+
+This application can save time for students, because they can check whether the book is available, if not, they don't go to the library. Librarians can easily control the amount and availability of books, easyly add and delete them.
+
+# Presentation:
 
 ## There is the first and main window: 
 
